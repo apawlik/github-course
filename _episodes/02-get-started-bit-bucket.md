@@ -10,8 +10,8 @@ objectives:
 - "Learning how to add collaborators to the project."
 - "Understanding different repository setups and write access on BitBucket."
 keypoints:
--   "Learning how to clone a repository and request/give access to collaborators."
-permalink: /02-get-started-bit-bucket
+- "Learning how to clone a repository and request/give access to collaborators."
+permalink: /02-get-started-bit-bucket/
 ---
 
 You may find yourself wanting or needing to contribute to code base that already exists and has a number of contributors working on it. One of the places where the code can be hosted is a repository in [BitBucket](https://bitbucket.org/). BitBucket is a hosting service allowing that can be used for hosting source code along with a number of tools which support collaboration on the said code (such as a wiki, issue tracker and more). What is important is that the source code is hosted in either Git or Mercurial repositories. Shortly speaking, BitBucket provides the functionality of version control system together with some additional services which make it extremely useful in collaborative work.
