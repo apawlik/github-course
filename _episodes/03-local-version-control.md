@@ -4,16 +4,16 @@ title: "Working with version control on your own machine"
 teaching: 25
 exercises: 0
 questions:
-- "How to record changes with Git?"
-- "How do I check the status of my version control repository?"
-- "How do I record notes about what changes I made and why?"
+-    "How to record changes with Git?"
+-    "How do I check the status of my version control repository?"
+-    "How do I record notes about what changes I made and why?"
 objectives:
-- "Go through the modify-add-commit cycle for one or more files."
-- "Explain where information is stored at each stage of Git commit workflow."
-- "Distinguish between descriptive and non-descriptive commit messages."
+-    "Go through the modify-add-commit cycle for one or more files."
+-    "Explain where information is stored at each stage of Git commit workflow."
+-    "Distinguish between descriptive and non-descriptive commit messages."
 keypoints:
 -   "Working locally with version control."
-permalink: /03-local-version-control
+permalink: /03-local-version-control/
 ---
 
 *This training material is a modified contents of the [Version Control lesson](http://swcarpentry.github.io/git-novice) from Software Carpentry workshops*
