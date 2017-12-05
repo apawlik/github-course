@@ -1,20 +1,12 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-venue: "GitHub Hands-on Workshop @ North-West University"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Room 305, Bld D1, Corner of Borcherds and Hoffman Streets, North-West University, Potchefstroom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "South Africa"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+venue: "Version control with Git and GitHub for researchers"        # brief name of host site without address (e.g., "Euphoric State University")
+#address: ""
+#country: ""      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "-26.693341,27.092911"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "19 May, 2017"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9.00 am -13.00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2017-05-19      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2017-05-19        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Aleksandra Pawlik"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-#helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["eResearch@nwu.ac.za"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+contact: ["aleksandra.n.pawlik@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 
@@ -25,35 +17,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <a href="http://swcarpentry.github.io/git-novice/"> Software Carpentry Git lesson</a>. This workshop is intended for anyone who
   wants to learn how to use GitHub - you don't need to know anything about version control before coming to this session.
   We will only learn how to use GitHub, please note that we will not cover using Git on your laptop.</p>
-<p><b> If you would like to attend the workshop, please <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYXi4CVGhIZNsAtZR8pPZn9aGZeDf-SOOgGWtmW9wl5VSiXQ/viewform?c=0&w=1">
-  fill in this registration form.</a></b></p>
-
-{% if page.latlng %}
-<p id="where">
-  <strong>Where:</strong>
-  {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
-</p>
-{% endif %}
-
-<h4>Remote participation</h4>
-<p> You will be able to attend the workshop remotely via a <a href="https://hangouts.google.com/call/37nfromfsjegtgha6zymihfnh44">
-  Google Hangout</a>. 
-  Please note though that participating in person will allow
-  you to gain the most of the workshop as some hands-on activities may be difficult to achieve if you are not attending in person. </p>
 <!--
   SPECIAL REQUIREMENTS
 
   Modify the block below if there are any special requirements.
 -->
-<p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.). They are also required to abide by 
-  Software Carpentry's  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>
-  (which we refer back to as a well working model).</p>
 
 <h2 id="setup">Setup</h2>
 
@@ -72,29 +40,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <h3>GitHub</h3>
   <p>
     At this workshop we will only work with GitHub (not with Git on your machines).
-    You will need an account at <a href="https://github.com/">github.com</a>. 
+    You will need an account at <a href="https://github.com/">github.com</a>.
     Basic GitHub accounts are free. Please create a GitHub account if you don't have one already.
     Please consider what personal information you'd like to reveal. For
     example, you may want to review these
     <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
     for keeping your email address private</a> provided at GitHub.
   </p>
-
-<!--
-  ACCESSIBILITY
-
-  Modify the block below if there are any barriers to accessibility or
-  special instructions.
--->
-<p id="accessibility">
-  <strong>Accessibility:</strong> We are committed to making this workshop
-  accessible to everybody.
-  The workshop organisers have checked that:
-</p>
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
 
 <!--
   CONTACT EMAIL ADDRESS
@@ -143,7 +95,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <tr> Merging pull requests.</tr>
     <tr> Using gh-pages.</tr>
   <tr> </tr>
-  
+
   </table>
 
 
@@ -164,6 +116,3 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 <hr/>
-
-
-
