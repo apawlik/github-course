@@ -10,11 +10,11 @@ After taking this course you should be able to:
 * understand the purpose of using version control;
 * understand the advantages of using version control;
 * have a solid overview of what version control allows you to do;
-* fork and clone an existing repository from GitHub;
+* fork and clone an existing repository from BitBucket/GitHub;
 * make new commits to the cloned repository;
 * push back your new commits;
 * contribute back your new commits to the original repository using pull requests;
 * understand the purpose of branching out in Git;
 * create a new branch in your cloned repository;
 * make commits in the new branch and contribute back these changes via pull requests;
-* understand the purpose and advantages of committing changes via pull requests in branches (a common workflow of contributing to software development projects hosted on GitHub).
+* understand the purpose and advantages of committing changes via pull requests in branches (a common workflow of contributing to software development projects hosted on BitBucket/GitHub).
