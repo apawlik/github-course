@@ -1,6 +1,6 @@
-## Version control with Git and GitHub for researchers
+## Version control with Git and BitBucket / GitHub for researchers
 
-This repository contains materials for hands-on course on version control with Git and GitHub. The course is intended for researchers from variety of disciplines but anyone who wants to learn how to use version control, in particular to collaborate in distributed projects, may find this course useful.
+This repository contains materials for hands-on course on version control with Git and BitBucket/GitHub. The course is intended for researchers from variety of disciplines but anyone who wants to learn how to use version control, in particular to collaborate in distributed projects, may find this course useful.
 
 The contents of this course as well as the layout for the course page is based on materials developed by Software Carpentry, Data Carpentry and Library Carpentry.
 
