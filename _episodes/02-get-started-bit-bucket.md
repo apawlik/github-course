@@ -33,6 +33,7 @@ If you are using Windows, please start GitBash. If you are using Mac or Linux, p
 Go to our sample (but real) [repository](https://bitbucket.org/apawlik/public-sector-websites). On the left hand side you should see a plus sign. Click on it and you should see a submenu with a section `GET TO WORK`. Below you should see `Clone this repository` (see the image below).
 
 
+
 When you click on `Clone this repository`, you will see a pop-up window.
 
 
@@ -59,4 +60,18 @@ Now you should have the exact clone of the repository on your machine. Type:
 
 ```
 cd public-sector-websites
+```
+
+The `clone` command creates an exact copy of the repository. We can for example see the history of contributions (or more precisely, `commits`) to the repository:
+
+```
+git log
+```
+
+**Tip** To return to the command line, press `q`.
+
+The information displayed on the screen by `log` can be modified as this command has a lot of *options*. For example:
+
+```
+git log --oneline
 ```
