@@ -28,11 +28,13 @@ Go to [BitBucket](https://bitbucket.org/account/signup/) website and create an a
 
 If you are using Windows, please start GitBash. If you are using Mac or Linux, please start the Terminal (you will be able to find it in Applications on Mac).
 
-[]
-
 ### Clone the repository
 
-Go to our sample (but real) [repository](https://bitbucket.org/apawlik/public-sector-websites). On the left hand side you should see a plus sign. Click on it and you should see a submenu with a section `GET TO WORK`. Below you should see `Clone this repository` (see the image below).
+Go to our sample (but real) [repository](https://bitbucket.org/apawlik/public-sector-websites). On the left hand side you should see a plus sign. 
+
+![plus](../fig/plus_BB.PNG)
+
+Click on it and you should see a submenu with a section `GET TO WORK`. Below you should see `Clone this repository` (see the image below).
 
 
 
