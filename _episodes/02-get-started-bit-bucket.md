@@ -36,12 +36,13 @@ Go to our sample (but real) [repository](https://bitbucket.org/apawlik/public-se
 
 Click on it and you should see a submenu with a section `GET TO WORK`. Below you should see `Clone this repository` (see the image below).
 
-
+![clone](../fig/clone.PNG)
 
 When you click on `Clone this repository`, you will see a pop-up window.
 
+![po-up](../fig/pop.PNG)
 
-Copy the address that is visible next to `HTTPS` (see below).
+Copy the address that is visible next to `HTTPS`.
 
 Now go to your terminal and paste the line you copied. In GitBash Ctrl+V will **not** work. You need to right click and then select `Paste`.
 
