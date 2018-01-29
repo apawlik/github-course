@@ -20,13 +20,15 @@ For the purpose of our training we will use a [copy of New Zealand Government re
 
 ### Create a BitBucket account
 
-Go to [BitBucket](https://bitbucket.org/account/signup/) website and create an account. NOte down your username - you will need it. Then log in.
-You should see a dashboard similar to this one:
+Go to [BitBucket](https://bitbucket.org/account/signup/) website and create an account. Note down your username - you will need it. Then log in.
 
+**Note** If you are participating in the workshop, your instructor will likely add you as a collaborator to the repositor. Please enter your username in the online notepad which your instructor will point you to.
 
 ### Set up for cloning
 
 If you are using Windows, please start GitBash. If you are using Mac or Linux, please start the Terminal (you will be able to find it in Applications on Mac).
+
+[]
 
 ### Clone the repository
 
