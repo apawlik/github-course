@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "Working with version control on your own machine"
+title: "Setting up version control on your own machine"
 teaching: 25
 exercises: 0
 questions:
@@ -13,7 +13,7 @@ objectives:
 -    "Distinguish between descriptive and non-descriptive commit messages."
 keypoints:
 -   "Working locally with version control."
-permalink: /03-local-version-control/
+permalink: /03-git-set-up/
 ---
 
 *This training material is a modified contents of the [Version Control lesson](http://swcarpentry.github.io/git-novice) from Software Carpentry workshops*
