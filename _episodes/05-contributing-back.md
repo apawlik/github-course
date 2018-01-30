@@ -59,5 +59,25 @@ Edit the file you created in the previous exercise - add your first name to it. 
 What happens if two or more people edit the same part of the repository (the same file, in the same place)?
 
 **Exercise**:
+Edit the `README.md` file - at the very top of it write: *This is line one added by YOUR NAME*. Commit and push back your changes. 
 
-Edit the file you created in the previous exercise - add your first name to it. Save it, commit your changes and push them into the repository.
+If you were the first one pushing your changes, it will all work OK. But if not, then you will see a message similar to this one:
+
+```
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+Open the README.md file in the editor and see what you will find.
+
+Once we finished editing the README.md file, we need to complete the *conflict resolution*.
+
+```
+  $ git add README.md
+```
+
+```
+  $ git commit -am "Resolving the conflict"
+```
+
+Now try pushing back. What happens? How to get out of that situation?
