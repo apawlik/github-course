@@ -14,9 +14,13 @@ keypoints:
 permalink: /04-browsing-history/
 ---
 
+Let's have a look what has been going on in this particular repository:
+
 ```
    $ git log
 ```
+
+You should see output similar to this one:
 
 ```
 commit 51ef8b80ec9577de5650c1def7e69f313efb3f8f (HEAD -> master, origin/master, origin/HEAD)
@@ -82,3 +86,5 @@ index 762d064..d9e5cc0 100644
 +                       "modified": "2017-09-11",
 
 ```
+
+Cloning not only copies the files but brings in the full functionality of the repository.
