@@ -49,4 +49,15 @@ Depending how fast you were - you may need to first pull the changes (so update 
 ```
    $ git pull origin master
 ```
+**Exercise**:
 
+Edit the file you created in the previous exercise - add your first name to it. Save it, commit your changes and push them into the repository.
+
+
+### Resolving conflicts
+
+What happens if two or more people edit the same part of the repository (the same file, in the same place)?
+
+**Exercise**:
+
+Edit the file you created in the previous exercise - add your first name to it. Save it, commit your changes and push them into the repository.
